@@ -1,0 +1,53 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    border: 2px solid black;
+    width: 415px;
+    height: 200px;
+}
+
+.upper-container {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.counter {
+    border: 2px solid black;
+    width: 80%;
+    height: 50px;
+}
+
+.lower-container {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.action-btn-ctn { 
+    width: 80%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    border: 1px, red, 10px;
+    width: 80px;
+    height: 100%;
+}
